@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sih_believid_app/Listview_ex.dart';
 import 'package:sih_believid_app/main_page.dart';
 import 'package:sih_believid_app/video_analysis.dart';
 
@@ -23,9 +22,7 @@ class ImgAnl extends StatelessWidget {
                 color: Colors.blue,
                 child: Text("Enter URL"),
                 elevation: 5.0,
-                onPressed: () {
-                  Navigator.push(context, new MaterialPageRoute(builder: (context) => ListDisplay()),);
-                }
+                onPressed: () {}
             ),
             const SizedBox(height: 30),
             RaisedButton(
